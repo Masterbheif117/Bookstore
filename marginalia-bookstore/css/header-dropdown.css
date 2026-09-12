@@ -1,0 +1,74 @@
+.header-dropdown {
+  position: relative;
+  z-index: 20;
+}
+
+.categories-button {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.categories-button:hover {
+  background: var(--paper-deep);
+}
+
+.caret {
+  font-size: 1rem;
+  transition: transform 120ms ease;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  width: 190px;
+  margin: 0;
+  padding: 6px 0;
+  display: none;
+  list-style: none;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  box-shadow: 0 8px 18px rgba(43, 36, 28, 0.12);
+}
+
+.header-dropdown:hover .dropdown-menu,
+.header-dropdown:focus-within .dropdown-menu {
+  display: block;
+}
+
+.header-dropdown:hover .caret,
+.header-dropdown:focus-within .caret {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 12px;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 0.86rem;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+  background: var(--paper-deep);
+  outline: none;
+}
+
+.dropdown-menu .current-dropdown {
+  background: var(--pine);
+  color: #fff;
+}
+
+.dropdown-menu .current-dropdown:hover,
+.dropdown-menu .current-dropdown:focus {
+  background: var(--pine-deep);
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Marginalia open book logo</title>
+  <circle cx="32" cy="32" r="28" fill="#f7f1e4" stroke="#2b241c" stroke-width="2"/>
+  <path d="M17 22c6-2 11 0 15 4v19c-4-4-9-5-15-3V22z" fill="#b84a3e"/>
+  <path d="M47 22c-6-2-11 0-15 4v19c4-4 9-5 15-3V22z" fill="#d98c86"/>
+  <path d="M32 26v19" stroke="#2b241c" stroke-width="2"/>
+</svg>

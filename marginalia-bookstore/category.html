@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Mystery and Thriller books at Marginalia Coffee & Books" />
+    <title>Mystery & Thriller | Marginalia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Karla:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/app-header.css" />
+    <link rel="stylesheet" href="css/header-dropdown.css" />
+    <link rel="stylesheet" href="css/app-footer.css" />
+    <link rel="stylesheet" href="css/category.css" />
+    <link rel="stylesheet" href="css/category-book-list.css" />
+  </head>
+
+  <body>
+    <main class="site-shell">
+      <header class="site-header">
+        <a class="brand-mark" href="index.html" aria-label="Marginalia home">
+          <img src="images/site/marginalia-logo.svg" alt="Marginalia open book logo" />
+        </a>
+
+        <a class="brand-copy" href="index.html">
+          <span class="text-logo">Marginalia</span>
+          <span class="brand-subtitle">COFFEE &amp; BOOKS</span>
+        </a>
+
+        <div class="header-tools">
+          <div class="header-dropdown">
+            <button class="categories-button" type="button" aria-label="Book categories">
+              Categories
+              <span class="caret" aria-hidden="true">⌄</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="category.html">New Releases</a></li>
+              <li><a href="category.html">Best Sellers</a></li>
+              <li><a href="category.html">Fiction</a></li>
+              <li><a class="current-dropdown" href="category.html">Mystery &amp; Thriller</a></li>
+              <li><a href="category.html">Kids' Corner</a></li>
+              <li><a href="category.html">Poetry &amp; Slow Reads</a></li>
+            </ul>
+          </div>
+
+          <form class="search-form" action="category.html">
+            <button type="submit" class="search-icon" aria-label="Search">
+              <img src="images/site/search.svg" alt="" />
+            </button>
+            <input type="text" name="search" placeholder="Search titles, authors..." aria-label="Search titles and authors" />
+          </form>
+
+          <button class="login-button" type="button">
+            <img src="images/site/user.svg" alt="" />
+            <span>Log In</span>
+          </button>
+
+          <button class="cart-button" type="button" aria-label="Shopping cart with 3 items">
+            <img src="images/site/cart.svg" alt="Shopping cart" />
+            <span class="cart-count">3</span>
+          </button>
+        </div>
+      </header>
+
+      <nav class="category-nav" aria-label="Book categories">
+        <a href="category.html">New Releases</a>
+        <a href="category.html">Best Sellers</a>
+        <a href="category.html">Fiction</a>
+        <a class="selected-category" href="category.html">Mystery &amp; Thriller</a>
+        <a href="category.html">Kids' Corner</a>
+        <a href="category.html">Poetry &amp; Slow Reads</a>
+      </nav>
+
+      <section class="category-page">
+        <div class="category-title-row">
+          <h1>Mystery &amp; Thriller</h1>
+          <p>24 on the shelf, more in the back — M.</p>
+        </div>
+
+        <ul class="book-grid">
+          <li class="book-card green-card">
+            <div class="book-cover-area">
+              <button class="read-now" type="button">READ NOW</button>
+              <img src="images/books/the-moonstone.png" alt="The Moonstone by Wilkie Collins" />
+              <div class="staff-sticky">the original<br />whodunit. no notes<br />—M.</div>
+              <span class="price-sticker">$11.99</span>
+              <div class="cover-copy"><strong>The Moonstone</strong><span>Wilkie Collins</span></div>
+            </div>
+            <div class="book-info">
+              <h2>The Moonstone</h2>
+              <p>Wilkie Collins</p>
+              <button type="button" class="add-cart">Add to Cart</button>
+            </div>
+          </li>
+
+          <li class="book-card red-card">
+            <div class="book-cover-area">
+              <button class="read-now" type="button">READ NOW</button>
+              <img src="images/books/dracula.png" alt="Dracula by Bram Stoker" />
+              <span class="price-sticker">$9.99</span>
+              <div class="cover-copy"><strong>Dracula</strong><span>Bram Stoker</span></div>
+            </div>
+            <div class="book-info">
+              <h2>Dracula</h2>
+              <p>Bram Stoker</p>
+              <button type="button" class="add-cart">Add to Cart</button>
+            </div>
+          </li>
+
+          <li class="book-card brown-card">
+            <div class="book-cover-area">
+              <button class="read-now" type="button">READ NOW</button>
+              <img src="images/books/the-woman-in-white.png" alt="The Woman in White by Wilkie Collins" />
+              <span class="price-sticker">$13.50</span>
+              <div class="cover-copy"><strong>The Woman in White</strong><span>Wilkie Collins</span></div>
+            </div>
+            <div class="book-info">
+              <h2>The Woman in White</h2>
+              <p>Wilkie Collins</p>
+              <button type="button" class="add-cart">Add to Cart</button>
+            </div>
+          </li>
+
+          <li class="book-card pine-card">
+            <div class="book-cover-area">
+              <button class="read-now" type="button">READ NOW</button>
+              <img src="images/books/the-hound-of-the-baskervilles.png" alt="The Hound of the Baskervilles by Arthur Conan Doyle" />
+              <span class="price-sticker">$10.25</span>
+              <div class="cover-copy"><strong>The Hound of the Baskervilles</strong><span>Arthur Conan Doyle</span></div>
+            </div>
+            <div class="book-info">
+              <h2>The Hound of the Baskervilles</h2>
+              <p>Arthur Conan Doyle</p>
+              <button type="button" class="add-cart">Add to Cart</button>
+            </div>
+          </li>
+
+          <li class="book-card sage-card">
+            <div class="book-cover-area">
+              <img src="images/books/uncle-silas.png" alt="Uncle Silas by Sheridan Le Fanu" />
+              <span class="price-sticker">$12.00</span>
+              <div class="cover-copy"><strong>Uncle Silas</strong><span>Sheridan Le Fanu</span></div>
+            </div>
+            <div class="book-info">
+              <h2>Uncle Silas</h2>
+              <p>Sheridan Le Fanu</p>
+              <button type="button" class="add-cart">Add to Cart</button>
+            </div>
+          </li>
+
+          <li class="book-card paprika-card">
+            <div class="book-cover-area">
+              <img src="images/books/the-turn-of-the-screw.png" alt="The Turn of the Screw by Henry James" />
+              <div class="staff-sticky right-note">read it in one very<br />late night</div>
+              <span class="price-sticker">$8.75</span>
+              <div class="cover-copy"><strong>The Turn of the Screw</strong><span>Henry James</span></div>
+            </div>
+            <div class="book-info">
+              <h2>The Turn of the Screw</h2>
+              <p>Henry James</p>
+              <button type="button" class="add-cart">Add to Cart</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <footer class="site-footer" id="footer">
+        <p>© 2026 Marginalia Coffee &amp; Books.</p>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#footer">Contact</a>
+          <a href="#footer">Directions</a>
+        </nav>
+        <div class="social-links">
+          <a href="#footer" aria-label="Facebook"><img src="images/site/facebook.svg" alt="Facebook" /></a>
+          <a href="#footer" aria-label="Twitter"><img src="images/site/twitter.svg" alt="Twitter" /></a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

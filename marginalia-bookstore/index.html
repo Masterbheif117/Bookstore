@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Marginalia Coffee & Books" />
+    <title>Marginalia Coffee & Books</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Karla:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/app-header.css" />
+    <link rel="stylesheet" href="css/header-dropdown.css" />
+    <link rel="stylesheet" href="css/app-footer.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+
+  <body>
+    <main class="site-shell">
+      <header class="site-header">
+        <a class="brand-mark" href="index.html" aria-label="Marginalia home">
+          <img src="images/site/marginalia-logo.svg" alt="Marginalia open book logo" />
+        </a>
+
+        <a class="brand-copy" href="index.html">
+          <span class="text-logo">Marginalia</span>
+          <span class="brand-subtitle">COFFEE &amp; BOOKS</span>
+        </a>
+
+        <div class="header-tools">
+          <div class="header-dropdown">
+            <button class="categories-button" type="button" aria-label="Book categories">
+              Categories
+              <span class="caret" aria-hidden="true">⌄</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="category.html">New Releases</a></li>
+              <li><a href="category.html">Best Sellers</a></li>
+              <li><a href="category.html">Fiction</a></li>
+              <li><a href="category.html">Mystery &amp; Thriller</a></li>
+              <li><a href="category.html">Kids' Corner</a></li>
+              <li><a href="category.html">Poetry &amp; Slow Reads</a></li>
+            </ul>
+          </div>
+
+          <form class="search-form" action="category.html">
+            <button type="submit" class="search-icon" aria-label="Search">
+              <img src="images/site/search.svg" alt="" />
+            </button>
+            <input type="text" name="search" placeholder="Search titles, authors..." aria-label="Search titles and authors" />
+          </form>
+
+          <button class="login-button" type="button">
+            <img src="images/site/user.svg" alt="" />
+            <span>Log In</span>
+          </button>
+
+          <button class="cart-button" type="button" aria-label="Shopping cart with 3 items">
+            <img src="images/site/cart.svg" alt="Shopping cart" />
+            <span class="cart-count">3</span>
+          </button>
+        </div>
+      </header>
+
+      <section class="home-page">
+        <div class="hero-copy">
+          <p class="eyebrow">◆ BOOKSTORE &amp; COFFEE · EST. 2019</p>
+          <h1>Come for coffee.<br />Stay for the stacks.</h1>
+          <p class="hero-text">
+            Worn armchairs, a shelf of staff picks that changes every Friday, and enough books to make you late for wherever you were headed. Order a hojicha, find something to underline, stay as long as you like.
+          </p>
+          <a class="primary-cta" href="category.html">Browse the Shelves</a>
+          <a class="counter-link" href="#counter">See what's on the counter today</a>
+        </div>
+
+        <div class="hero-scene" aria-label="Books, coffee, and plant illustration">
+          <div class="staff-note">Finished this in one sitting. Good luck putting it down.<br /><span>— Nora, floor manager</span></div>
+
+          <div class="shelf-scene">
+            <div class="book book-one"></div>
+            <div class="book book-two"></div>
+            <div class="book book-three"></div>
+            <div class="book book-four"></div>
+            <div class="mug"><span></span></div>
+            <div class="plant"><i></i><b></b></div>
+            <div class="shelf"></div>
+          </div>
+
+          <div id="counter" class="counter-card">
+            <p>ON THE COUNTER TODAY</p>
+            <div><span>Oat Milk Latte</span><strong>$5.50</strong></div>
+            <div><span>Hojicha</span><strong>$5.00</strong></div>
+            <div><span>Iced Matcha</span><strong>$5.75</strong></div>
+            <div><span>Drip Coffee</span><strong>$3.50</strong></div>
+          </div>
+        </div>
+
+        <section class="staff-picks">
+          <div class="section-heading">
+            <div>
+              <h2>Staff Picks</h2>
+              <span>changes every Friday — Nora</span>
+            </div>
+            <a href="category.html">See all</a>
+          </div>
+
+          <div class="staff-books">
+            <a class="staff-book" href="category.html">
+              <img src="images/books/piranesi.png" alt="Piranesi by Susanna Clarke" />
+              <h3>Piranesi</h3>
+              <p>Susanna Clarke</p>
+              <strong>$14.99</strong>
+            </a>
+            <a class="staff-book" href="category.html">
+              <img src="images/books/the-secret-history.png" alt="The Secret History by Donna Tartt" />
+              <h3>The Secret History</h3>
+              <p>Donna Tartt</p>
+              <strong>$10.75</strong>
+            </a>
+            <a class="staff-book" href="category.html">
+              <div class="cover-label">READ NOW</div>
+              <img src="images/books/dracula.png" alt="Dracula by Bram Stoker" />
+              <h3>Dracula</h3>
+              <p>Bram Stoker</p>
+              <strong>$9.99</strong>
+            </a>
+            <a class="staff-book" href="category.html">
+              <img src="images/books/rebecca.png" alt="Rebecca by Daphne du Maurier" />
+              <h3>Rebecca</h3>
+              <p>Daphne du Maurier</p>
+              <strong>$12.00</strong>
+            </a>
+            <a class="staff-book" href="category.html">
+              <div class="cover-label">READ NOW</div>
+              <img src="images/books/the-moonstone.png" alt="The Moonstone by Wilkie Collins" />
+              <h3>The Moonstone</h3>
+              <p>Wilkie Collins</p>
+              <strong>$11.99</strong>
+            </a>
+          </div>
+        </section>
+      </section>
+
+      <footer class="site-footer" id="footer">
+        <p>© 2026 Marginalia Coffee &amp; Books.</p>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#footer">Contact</a>
+          <a href="#footer">Directions</a>
+        </nav>
+        <div class="social-links">
+          <a href="#footer" aria-label="Facebook"><img src="images/site/facebook.svg" alt="Facebook" /></a>
+          <a href="#footer" aria-label="Twitter"><img src="images/site/twitter.svg" alt="Twitter" /></a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
